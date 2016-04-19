@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Asteroids</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="play">Play</string>
+    <string name="configure">Settings</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="aboutText">This app has been developed as an IDI\'s 
+        subject project. By Alvaro Mateo.</string>
+    <string name="victory">Level cleared</string>
+    <string name="defeat">Game over</string>
+    <string name="goback">Press Back to go to main menu</string>
+    <string name="topscores">TOP SCORES</string>
+    <string name="noscores">There are no scores</string>
+    <string name="scores">Scores</string>
+
+</resources>

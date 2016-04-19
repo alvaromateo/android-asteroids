@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <alvaromateo.asteroids.GameView
+        android:id="@+id/GameView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/space_background2" />
+	
+    <Button 
+        android:id="@+id/propulsionButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="20sp"
+        android:background="@drawable/propbut"
+        android:text="P"
+        android:textColor="#FF000000"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:id="@+id/defeat"
+        android:gravity="center"
+        android:background="#7F000000"
+	    android:visibility="invisible" >
+    
+	    <TextView
+	        android:id="@+id/gameover"
+	        android:text="@string/defeat"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textSize="50sp"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/goback"
+	        android:text="@string/goback"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textSize="25sp"
+	        android:textColor="#FFFFFF" />
+	    
+	</LinearLayout>
+    
+</RelativeLayout>

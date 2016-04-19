@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="graphicsType" >
+        <item>Vectorial</item>
+        <item>Bitmap</item>
+        <item>3D</item>
+    </string-array>
+    
+    <string-array name="graphicsTypeValues" >
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="connectionType" >
+        <item>Bluetooth</item>
+        <item>Wi-Fi</item>
+        <item>Internet</item>
+    </string-array>
+    
+    <string-array name="connectionTypeValues" >
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
